@@ -1,3 +1,6 @@
+@import "./components/abby/abby.scss";
+@import "./components/Search/Search.scss";
+@import url('https://fonts.googleapis.com/css?family=Roboto');
 body{
 	height:100%;
 	font-family: 'Roboto', sans-serif;
@@ -59,4 +62,60 @@ body{
 }
 *:focus {
     outline: none;
+}
+
+.WeatherIcon{
+	color:#3893B1;
+	font-size:60px;
+	display:flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+
+.WeatherDiv{
+	height: 100vh;
+	display: flex;
+	text-align: center;
+	justify-content: center;
+	flex-direction: column;
+	font-family: 'Roboto', sans-serif;
+}
+
+.marginTop{
+	margin-top:5px;
+	font-size:12px;
+}
+
+.WeatherTime{
+	color:#267DBD;
+	font-size:40px;
+	display:flex;
+	flex-direction: column;
+	align-items: center
+}
+.TimeSpan{
+	margin-top:-25px;
+}
+.TimeCity{
+	font-weight: bold;
+	margin-top:-15px;
+	font-size:25px;
+	color:#93B7CC
+}
+.WeatherIconMargin{
+	margin-top:25px;
+}
+
+.TempDiv{
+	margin-top: 15px;
+	font-size:15px;
+	display: flex;
+	flex-direction: row;
+}
+.TimeSpanMarginLeft{
+	margin-left: 10px;
+}
+.TimeIconMargin{
+	margin-top:4px;
 }
